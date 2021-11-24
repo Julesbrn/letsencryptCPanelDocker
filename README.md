@@ -113,7 +113,7 @@ Clone the repo and cd to the root folder. Then run the following command:
 docker build . --tag "letsencrypt_cpanel" --no-cache
 ```
 ## Pulling from DockerHub
-TODO
+docker pull julesbrn/letsencrypt-cpanel-docker:v1
 
 ## License
 [GNU GPLv3](https://choosealicense.com/licenses/gpl-3.0/)
