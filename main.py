@@ -116,13 +116,13 @@ def getLineIndex(zone, value=""):
     
 if (method == "serial"):
     msg = getSerial()
-    #print(msg)
+    print(msg)
 if (method == "add"):
     #print("adding for " + domain)
     serial = getSerial()
     #print("serial: " + str(serial))
     msg = addDnsRecord(serial, zone, "TXT", cerbotKey)
-    print(msg)
+    #print(msg)
 if (method == "remove"):
     #print("removing for " + domain)
     serial = getSerial()
@@ -135,4 +135,4 @@ if(method == "test"):
 if(method == "idx"):
     #print("idx")
     tmp = getLineIndex(zone, cerbotKey)
-    #print(tmp)
+    print(tmp)

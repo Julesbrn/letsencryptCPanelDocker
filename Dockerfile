@@ -1,6 +1,5 @@
 FROM debian:stable-slim
 
-#RUN apt update && apt install -y cerbot
 RUN apt update && apt install -y certbot
 
 RUN mkdir /dockerRoot
@@ -15,5 +14,4 @@ COPY ./runAllDomains.sh /dockerRoot/scripts/runAllDomains.sh
 
 COPY ./hooks/ /dockerRoot/scripts/hooks/
 
-#CMD python /app/app.py
 CMD tail -f /dev/null

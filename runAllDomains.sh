@@ -1,10 +1,6 @@
 #!/bin/bash
-# NOTE : Quote it else use array to avoid problems #
-#lets.110321@e.darkmesa.net
-
 current_time=$(date "+%Y.%m.%d-%H.%M.%S")
 
-emailAddress="lets.110321@e.darkmesa.net"
 FILES="/dockerRoot/domains/*"
 mkdir -p "/dockerRoot/certbot_tmp/"
 mkdir -p "/dockerRoot/logs/"
@@ -33,7 +29,6 @@ then
       --manual-public-ip-logging-ok \
       --cert-path /dockerRoot/certs/
 
-  # >> "/dockerRoot/logs/log_${tmp3}_${current_time}"
     mkdir -p "/dockerRoot/certs/${tmp3}"
     cp "/dockerRoot/certbot_tmp/config/live/${tmp3}" -Lr /dockerRoot/certs/
     #-Lr -> copy actual files and recursive
