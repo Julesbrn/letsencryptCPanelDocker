@@ -1,0 +1,5 @@
+{
+    "username": "USERNAME",
+    "apiKey": "CPANEL API KEY",
+    "cpanelUrl": "https://cpanel.example.com:2083"
+}

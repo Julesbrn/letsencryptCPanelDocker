@@ -1,0 +1,7 @@
+{
+    "username": "USERNAME",
+    "apiKey": "CPANEL API KEY",
+    "cpanelUrl": "https://cpanel.example.com:2083",
+    "ALIAS__acme-challenge": "_acme-challenge.MYDOMAIN1",
+    "controllingDomain": "MYDOMAIN2.TLD"
+}
