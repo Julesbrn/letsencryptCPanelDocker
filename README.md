@@ -120,4 +120,4 @@ docker pull julesbrn/letsencrypt-cpanel-docker:v1
 ## License
 [GNU GPLv3](https://choosealicense.com/licenses/gpl-3.0/)
 
-
+Contact me for commercial use.
